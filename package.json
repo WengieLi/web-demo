@@ -1,0 +1,61 @@
+{
+  "name": "centanet-m",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env VUE_APP_TYPE=dev vue-cli-service serve --open",
+    "test": "cross-env VUE_APP_TYPE=test vue-cli-service build ",
+    "prd": "cross-env VUE_APP_TYPE=prd  vue-cli-service build",
+    "report": "cross-env VUE_APP_TYPE=prd  vue-cli-service build --report",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.13.2",
+    "moment": "^2.27.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.1.0",
+    "swiper": "^5.4.5",
+    "v": "^0.3.0",
+    "vant": "^2.5.7",
+    "vue": "^2.6.10",
+    "vue-baidu-map": "^0.21.22",
+    "vue-loader": "^15.9.1",
+    "vue-meta-info": "^0.1.7",
+    "vue-router": "^3.0.3",
+    "vue-slider-component": "^3.1.1",
+    "vue-video-player": "^5.0.2",
+    "vue-wechat-title": "^2.0.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-plugin-import": "^1.13.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "less": "^3.10.3",
+    "less-loader": "^4.1.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-lazyload": "^1.3.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^3.6.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "prettier": {
+    "bracketSpacing": true,
+    "printWidth": 3000,
+    "semi": true,
+    "singleQuote": true
+  }
+}
